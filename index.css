@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+html, body{
+}
+.up-banner{
+  background-color:#f4f4f4;
+  height:auto;
+  padding-bottom: 100px;
+  width:100vw;
+}
+.carousel-indicators {
+  padding-top: 10px;
+  position: static;
+  cursor: pointer;
+  height: auto;
+  background-color:white;
+  margin: 0;
+}
+.carousel-indicators li {
+
+  width: 100%!important;
+  height: 100px;
+
+}
+.carousel-indicators>li>img {
+
+  width: 100%!important;
+  height: 100px;
+
+}
+.carousel-item>img{
+  height:59vh;
+
+}
+.active{
+  opacity: 1;
+}
+.about{
+  background-color: transparent;
+  padding-top: 7vh;
+  padding-left: 4vw;
+
+}
+.about>h1{
+  font-family: 'Abril Fatface', cursive;
+  padding-bottom: 20px;
+}
+.about>a{
+  color: black;
+  text-decoration: underline;
+  text-underline-position: under;
+  padding-bottom: 30px;
+}
+.about>h2{
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+.about_p1{
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.checked {
+  color: #20c997;
+
+}
+.btn1{
+  width: 170px;
+  height: 50px;
+  border-radius: 1px;
+  background-color: #1c1c1c;
+  margin-right: 10px;
+}
+.btn2{
+  width: 200px;
+  height: 50px;
+  border-radius: 1px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns:  0.4fr 1.6fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "footer1 footer2 footer2 footer2"
+    "footer1 footer2 footer2 footer2"
+    "footer1 footer2 footer2 footer2";
+  /* display: grid;
+
+  grid-template-columns: 0.4fr 2.4fr 0.2fr 1fr;;
+  grid-template-rows: 0.6fr 1.4fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "footer1 footer2"; */
+}
+.footer1 { grid-area: footer1;
+font-size:30px;
+}
+.footer2 { grid-area: footer2;
+font-size: small; padding-left:14px;
+}
+h2{
+  font-family: 'Lexend Mega', sans-serif;
+}
+.footer{
+  padding-top: 20px;
+  height: 10vh;
+
+}
+h4{
+  font-size: 22px;
+  color: #5a5a5a;
+}
+.col-md-4{
+  height: 10vh;
+}
+.footer_p{
+
+  color: #949292;
+}
+.fas{
+  font-size: 24px;
+}
